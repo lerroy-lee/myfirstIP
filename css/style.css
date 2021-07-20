@@ -1,8 +1,13 @@
 body {
-  background-color: lightblue;
+  background-image: url(/images/woman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
 }
 
-h1 {
+h1 { background-color:orange;
   color: white;
   text-align: center;
 }
@@ -11,3 +16,9 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+.important {
+  color: red;
+}
+.unimportant {
+  color: blue;
+} 
